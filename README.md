@@ -22,7 +22,7 @@ You will need a db on your server and you will have to edit the includes/db_conn
 * A whole bunch of other things.
 
 ##PHP 5.5 Hashing: 
-One can update password hashing to PHP 5.5 standards by switching the password_encrypt() and password_check functions() to the newly integrated password_hash() and password_verify(). I decided to keep the 5.4 custom functions for backwards compatibility. Alternatively you can use https://github.com/ircmaxell/password_compat library
+One can update password hashing to PHP 5.5 standards by switching the password_encrypt() and password_check functions() to the newly integrated password_hash() and password_verify(). I decided to keep the 5.4 custom functions for backwards compatibility. Alternatively you can use the [password_compat](https://github.com/ircmaxell/password_compat) library
 
 ###Remember:
 Whatever you change always encrypt the user's password to prevent Internet vulnerability.
