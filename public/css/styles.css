@@ -1,0 +1,12 @@
+/*Admin styles*/
+body {background: url(../images/bg.png);}
+.secondary-nav li a {padding: 0 20px !important; color: #333;}
+.secondary-nav li.active a {background: none; color:#428bca;}
+
+/*Public Styles*/
+.public_body{background: url(../images/public_bg.png);}
+.public_body section {color: #fff;}
+.public_body .nav li:not(.active) a {color: #999;}
+.public_body .nav li ul li a {color: #ddd !important;}
+.public_body .secondary-nav li.active a {background: none; color:#428bca !important;}
+.public_body .panel-body {color: #000;}
